@@ -1,6 +1,6 @@
 # Use the official CentOS Apache HTTP Server image
 FROM centos/httpd
-
+MAINTAINER spdevops95@gmail.com
 # Download and unzip the web content
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
 WORKDIR /var/www/html
